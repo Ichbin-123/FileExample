@@ -15,7 +15,7 @@ public class FunctionalIO {
 
         List<String> listaStringhe = Arrays.asList(
                 "Questa è la prima riga",
-                "Madonna quanto è bello JAVA",
+                "Madonna quanto è bello Java",
                 "La versione italiana di 'Hello World' in Java",
                 "Basta"
         );
