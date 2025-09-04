@@ -1,0 +1,3 @@
+Questa è la prima riga
+Seconda riga123
+Fine del file.....
