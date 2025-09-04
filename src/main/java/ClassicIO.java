@@ -18,11 +18,11 @@ public class ClassicIO {
                 FileReader reader = new FileReader(path);
                 BufferedReader buffered = new BufferedReader((reader))
         ) {
-            // String riga= "";
-            String riga = buffered.readLine();
-            while(riga!=null){
-                System.out.println(riga);
-                riga = buffered.readLine();
+            String riga= "";
+            // String riga = buffered.readLine();
+            while((riga = buffered.readLine())!=null){
+                System.out.println("> " + riga);
+                // riga = buffered.readLine();
             }
         } catch (IOException ioException) {
             System.err.println("ERRORE: " + ioException.getMessage());
